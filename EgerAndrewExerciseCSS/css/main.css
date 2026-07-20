@@ -1,0 +1,74 @@
+/* Alternative CSS box model */
+* {
+    box-sizing: border-box;
+}
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin: 0rem;
+    background-color: darkgray;
+}
+
+/* Wrapper Styles */
+#wrapper {
+    width: 90%;
+    border: 5px solid darkolivegreen;
+    margin: auto;
+    padding: 1.25rem;
+}
+
+h1 {
+    text-align: center;
+    color: #1e9309;
+    background-color: burlywood;
+    width: 18.75rem;
+    padding: 1.25rem;
+    border: 5px solid firebrick;
+    margin: 1.25rem auto;
+    box-shadow: 5px 5px 3px orange;
+    text-shadow: 5px 5px 5px blue;
+    border-radius: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: antiquewhite;
+    background: darkcyan;
+    text-shadow: 5px 5px 5px blue;
+}
+
+
+p {
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: blueviolet;
+
+}
+
+a:hover {
+    color: cadetblue;
+}
+
+/* List Styles */
+ul {
+list-style: circle;
+; 
+}
+
+ol {
+    list-style: upper-alpha;
+    color: #1e9309;
+}
+
+/* Centering Image */
+img {
+    display: block;
+    margin: auto;
+}
+

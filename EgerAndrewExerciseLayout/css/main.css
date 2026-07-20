@@ -1,0 +1,86 @@
+/* Alternative CSS box model */
+* {
+  box-sizing: border-box;
+}
+/* General Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin: 0rem;
+  background-color: darkgray;
+}
+
+/* Wrapper Styles */
+#wrapper {
+  width: 90%;
+  border: 5px solid darkolivegreen;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+h1 {
+  text-align: center;
+  color: #1e9309;
+  background-color: burlywood;
+  width: 18.75rem;
+  padding: 1.25rem;
+  border: 5px solid firebrick;
+  margin: 1.25rem auto;
+  box-shadow: 5px 5px 3px orange;
+  text-shadow: 5px 5px 5px blue;
+  border-radius: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: antiquewhite;
+  background: darkcyan;
+  text-shadow: 5px 5px 5px blue;
+}
+
+p {
+  line-height: 1.5;
+  padding: 1rem;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+/* List Styles */
+nav ul {
+  list-style: none;
+  padding-left: 0rem;
+  /* Adding flex styling to unordered list */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* Gap for when screen size gets decreased */
+  gap: 2rem;
+  flex-flow: row wrap;
+  /* Adding a height to better see 'align-items' */
+  height: 3rem;
+}
+
+/* Centering Image */
+img {
+  display: block;
+  margin: auto;
+}
+
+/* Adding flexbox to header */
+header {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
